@@ -16,7 +16,7 @@ setuptools.setup(
     packages=['nstdpkg', 'nstdpkg.inner'],
     package_data = {'nstdpkg': ["data.json"]},
     install_requires=[
-        'click',
+        'attrs',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
