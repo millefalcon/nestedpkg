@@ -15,6 +15,9 @@ setuptools.setup(
     #packages=setuptools.find_packages(),
     packages=['nstdpkg', 'nstdpkg.inner'],
     package_data = {'nstdpkg': ["data.json"]},
+    install_requires=[
+        'attrs',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
